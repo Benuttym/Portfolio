@@ -1,5 +1,11 @@
+:root {
+  --primary-color: #ebd264;
+  --font-family1: 'Playfair Display', serif;
+  --font-family2: 'Poppins', sans-serif,
+}
+
 .navbar {
-  background-color: #ebd264;
+  background-color: #fff;
 }
 
 .navbar-nav {
@@ -7,14 +13,14 @@
 }
 
 .header {
-  background-color: #ebd264;
+  background-color: var(--primary-color);
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .h1-home {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -24,7 +30,7 @@
 }
 
 .h1-home, .h2-home {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-family1);
 }
 
 .contact-link {
@@ -42,4 +48,54 @@
   color: #fff;
   background-color: #571111;
   transition: .5s ease-in-out;
+}
+
+.h3-headers-home {
+  text-align: center;
+  font-family: var(--font-family1);
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: -25px;
+}
+
+.line-under-headers {
+  margin: 0 auto;
+  color: #571111;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.wrapper-skills {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.wrapper-logos {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.logos-skills {
+  width: 60px;
+  margin-bottom: 8px;
+}
+
+.wrapper-contact {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.each-contact {
+  display: inline-block;
+}
+
+.each-contact.one {
+  margin-right: 60px;
+}
+
+.logos-contact {
+  width: 60px;
+  margin-bottom: 8px;
 }
