@@ -66,6 +66,24 @@
   padding-top: 0px;
 }
 
+.project-one {
+  position: relative;
+}
+
+.images-projects {
+  width: 90%;
+}
+
+.images-projects:hover {
+  opacity: 50%;
+  transition: 1s ease-in-out;
+}
+
+.projects-description {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+}
 
 .wrapper-skills {
   text-align: center;
