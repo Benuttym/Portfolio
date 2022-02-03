@@ -1,7 +1,6 @@
 :root {
   --primary-color: #ebd264;
   --font-family1: 'Playfair Display', serif;
-  --font-family2: 'Poppins', sans-serif,
 }
 
 .navbar {
@@ -22,12 +21,13 @@
 
 .h1-home {
   font-size: 70px;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 0;
 }
 
 .h2-home {
   margin-top: 0;
+  font-weight: 400;
 }
 
 .h1-home, .h2-home {
@@ -55,6 +55,7 @@
   text-align: center;
   font-family: var(--font-family1);
   font-size: 50px;
+  font-weight: 400;
   margin-top: 30px;
   margin-bottom: -25px;
 }
@@ -71,12 +72,12 @@
   position: relative;
 }
 
-.images-projects {
+.images-projects-home {
   width: 90%;
   opacity: 60%;
 }
 
-.images-projects:hover {
+.images-projects-home:hover {
   opacity: 100%;
   transition: .5s ease-in-out;
 }
@@ -85,6 +86,7 @@
   margin-bottom: 0px;
   margin-top: 10px;
   font-family: var(--font-family1);
+  font-weight: 400;
 }
 
 .h4-projects a {
@@ -96,11 +98,13 @@
   display: inline-block;
   width: 80%;
   text-align: center;
+  font-weight: 300;
 }
 
 .wrapper-skills {
   text-align: center;
   margin-top: 30px;
+  font-weight: 300;
 }
 
 .wrapper-logos {
@@ -116,6 +120,7 @@
 .wrapper-contact {
   text-align: center;
   margin-top: 30px;
+  font-weight: 300;
 }
 
 .each-contact {
@@ -134,6 +139,19 @@
 .logos-contact {
   width: 60px;
   margin-bottom: 8px;
+}
+
+.projects-description-work {
+  font-weight: 300;
+}
+
+.paragraph-about-me {
+  margin: 0 auto;
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  width: 70%;
 }
 
 @media (max-width: 700px) {
