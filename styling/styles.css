@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.header {
+.header-home {
   background-color: var(--primary-color);
   text-align: center;
   padding-top: 60px;
@@ -34,7 +34,7 @@
   font-family: var(--font-family1);
 }
 
-.contact-link {
+.contact-link-home {
   display: inline-block;
   text-decoration: none;
   font-family: sans-serif;
@@ -45,7 +45,7 @@
   margin-top: 30px;
 }
 
-.contact-link:hover {
+.contact-link-home:hover {
   color: #fff;
   background-color: #571111;
   transition: .5s ease-in-out;
@@ -55,7 +55,7 @@
   text-align: center;
   font-family: var(--font-family1);
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: -25px;
 }
 
@@ -84,6 +84,7 @@
 .h4-projects {
   margin-bottom: 0px;
   margin-top: 10px;
+  font-family: var(--font-family1);
 }
 
 .h4-projects a {
@@ -91,7 +92,7 @@
   color: #000;
 }
 
-.projects-description {
+.projects-description-home {
   display: inline-block;
   width: 80%;
   text-align: center;
