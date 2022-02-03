@@ -145,6 +145,17 @@
   font-weight: 300;
 }
 
+.h4-projects.work {
+  padding-top: 20px;
+}
+
+.contact-link-home.work {
+  display: inherit;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
 .paragraph-about-me {
   margin: 0 auto;
   padding-top: 30px;
@@ -201,5 +212,21 @@
   .each-contact {
     width: 100%;
     margin-bottom: 15px;
+  }
+
+  .project-image-work {
+    display: block;
+    width: 80%;
+  }
+
+  .h4-projects.work {
+    padding-top: 5px;
+  }
+
+  .project-text-work {
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
   }
 }
