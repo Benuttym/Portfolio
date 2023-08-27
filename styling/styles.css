@@ -68,6 +68,8 @@
   padding-top: 0px;
 }
 
+/* Accueil */
+
 .project-one {
   position: relative;
 }
@@ -180,6 +182,8 @@
 .github a:hover {
   text-decoration: none;
 }
+
+/* Format reponsive */
 
 @media (max-width: 700px) {
   .h1-home {
