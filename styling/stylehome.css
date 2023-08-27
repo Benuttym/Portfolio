@@ -53,7 +53,7 @@
 }
 */
 
-.h3-headers-home {
+.h3-home {
   text-align: center;
   font-family: var(--font-family1);
   font-size: 50px;
@@ -62,7 +62,7 @@
   margin-bottom: -25px;
 }
 
-.line-under-headers {
+.line-under-h3 {
   margin: 0 auto;
   color: #000;
   text-align: center;
@@ -70,35 +70,23 @@
   padding-top: 0px;
 }
 
-.h4-projects {
-  margin-bottom: 0px;
-  margin-top: 10px;
-  font-family: var(--font-family1);
-  font-weight: 400;
-}
-
-.h4-projects a {
-  text-decoration: none;
-  color: #000;
-}
-
-.wrapper-skills {
+.wrapper-skills-home {
   text-align: center;
   margin-top: 30px;
   font-weight: 300;
 }
 
-.wrapper-logos {
+.wrapper-logos-home {
   display: inline-block;
   margin: 0px 20px;
 }
 
-.logos-skills {
+.logos-skills-home {
   width: 60px;
   margin-bottom: 8px;
 }
 
-.paragraph-about-me {
+.paragraph-home {
   margin: 0 auto;
   padding-top: 30px;
   display: block;
@@ -107,7 +95,7 @@
   width: 60%;
 }
 
-.github {
+.footer {
   color: #4b4b4b;
   font-size: 10px;
   text-align: center;
@@ -125,49 +113,16 @@
     font-size: 18px;
   }
 
-  .h3-headers-home {
+  .h3-home {
     font-size: 35px;
     margin-bottom: 20px;
   }
 
-  .line-under-headers {
+  .line-under-h3 {
     display: none;
   }
-  
-  .images-projects {
-    opacity: 1;
-  }
 
-  .project-one {
-    display: block;
-    width: 100%;
-  }
-
-  .project-one .images-projects {
-    width: 70%;
-  }
-
-  .project-two {
-    display: block;
-    width: 100%;
-  }
-
-  .project-two .images-projects {
-    width: 70%;
-  }
-
-  .wrapper-logos	{
+  .wrapper-logos-home	{
     margin-top: 15px;
-  }
-
-  .h4-projects.work {
-    padding-top: 5px;
-  }
-
-  .project-text-work {
-    display: block;
-    width: 80%;
-    margin-bottom: 20px;
-    text-align: center;
   }
 }
