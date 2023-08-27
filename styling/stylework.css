@@ -64,6 +64,15 @@
   color: #000;
 }
 
+.h4-work2 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-family: var(--font-family1);
+  font-weight: 400;
+  text-align: center;
+}
+
 .realisation-text {
   font-weight: 300;
 }
@@ -78,7 +87,7 @@
 
 .paragraph-work {
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 10px;
   display: block;
   text-align: center;
   font-weight: 300;
