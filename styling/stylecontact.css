@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.header-home {
+.header-contact {
   background-color: var(--primary-color);
   text-align: center;
   padding-top: 60px;
@@ -19,41 +19,22 @@
   width: 100%;
 }
 
-.h1-home {
+.h1-contact {
   font-size: 70px;
   font-weight: 600;
   margin-bottom: 0;
 }
 
-.h2-home {
+.h2-contact {
   margin-top: 0;
   font-weight: 400;
 }
 
-.h1-home, .h2-home {
+.h1-contact, .h2-contact {
   font-family: var(--font-family1);
 }
 
-/*
-.contact-link-home {
-  display: inline-block;
-  text-decoration: none;
-  font-family: sans-serif;
-  color: #fff;
-  background-color: #b32222;
-  border-radius: 50px;
-  padding: 10px 20px;
-  margin-top: 30px;
-}
-
-.contact-link-home:hover {
-  color: #fff;
-  background-color: #571111;
-  transition: .5s ease-in-out;
-}
-*/
-
-.h3-headers-home {
+.h3-contact {
   text-align: center;
   font-family: var(--font-family1);
   font-size: 50px;
@@ -62,33 +43,12 @@
   margin-bottom: -25px;
 }
 
-.line-under-headers {
+.line-under-h3 {
   margin: 0 auto;
   color: #000;
   text-align: center;
   margin-top: 0px;
   padding-top: 0px;
-}
-
-.h4-projects {
-  margin-bottom: 0px;
-  margin-top: 10px;
-  font-family: var(--font-family1);
-  font-weight: 400;
-}
-
-.h4-projects a {
-  text-decoration: none;
-  color: #000;
-}
-
-.paragraph-about-me {
-  margin: 0 auto;
-  padding-top: 30px;
-  display: block;
-  text-align: center;
-  font-weight: 300;
-  width: 60%;
 }
 
 .wrapper-contact {
@@ -116,7 +76,7 @@
   margin-bottom: 8px;
 }
 
-.github {
+.footer {
   color: #4b4b4b;
   font-size: 10px;
   text-align: center;
@@ -126,58 +86,25 @@
 /* Format reponsive */
 
 @media (max-width: 700px) {
-  .h1-home {
+  .h1-contact {
     font-size: 40px;
   }
 
-  .h2-home {
+  .h2-contact {
     font-size: 18px;
   }
 
-  .h3-headers-home {
+  .h3-contact {
     font-size: 35px;
     margin-bottom: 20px;
   }
 
-  .line-under-headers {
+  .line-under-h3 {
     display: none;
   }
   
-  .images-projects {
-    opacity: 1;
-  }
-
-  .project-one {
-    display: block;
-    width: 100%;
-  }
-
-  .project-one .images-projects {
-    width: 70%;
-  }
-
-  .project-two {
-    display: block;
-    width: 100%;
-  }
-
-  .project-two .images-projects {
-    width: 70%;
-  }
-
   .each-contact {
     width: 100%;
     margin-bottom: 15px;
-  }
-
-  .h4-projects.work {
-    padding-top: 5px;
-  }
-
-  .project-text-work {
-    display: block;
-    width: 80%;
-    margin-bottom: 20px;
-    text-align: center;
   }
 }
